@@ -1,0 +1,36 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.runtime/
+test-results/
+.coverage
+
+# Local editor settings and agent planning notes
+.idea/
+.vscode/
+docs/superpowers/
+
+# Local application data (the application normally uses the user data directory)
+/data/
+/library/
+/history/
+/staging/
+/backups/
+/logs/
+*.log
+
+# Credentials and local environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+credentials.json
+secrets.json
+.netrc
+.pypirc

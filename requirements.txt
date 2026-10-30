@@ -1,0 +1,4 @@
+nicegui==3.18.0
+tomlkit==0.15.2
+PyYAML==6.0.3
+filelock==3.32.7
